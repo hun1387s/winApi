@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\code\cpp\Assotrock\winApi\x64\Debug\Client.exe</FullPath>
+      <FullPath>D:\code\cpp\Assotrock\winApi\Output\bin_debug\Client.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

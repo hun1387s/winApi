@@ -5,9 +5,8 @@
 #include "CTimeMgr.h"
 #include "CKeyMgr.h"
 #include "CSceneMgr.h"
+#include "CPathMgr.h"
 
-
-//CCore* CCore::g_pInst = nullptr;
 
 CCore::CCore()
 	: m_hWnd(0)
@@ -46,6 +45,7 @@ int CCore::init(HWND _hWnd, POINT _ptResolution)
 	DeleteObject(hOldBit);
 
 	// Manager 초기화
+	CPathMgr::GetInst()->init();
 	CTimeMgr::GetInst()->init();
 	CKeyMgr::GetInst()->init();
 	CSceneMgr::GetInst()->init();
@@ -60,7 +60,7 @@ void CCore::progress()
 	CTimeMgr::GetInst()->update();
 	CKeyMgr::GetInst()->update();
 	CSceneMgr::GetInst()->update();
-
+	
 	// =========
 	// Rendering
 	// =========
@@ -72,44 +72,7 @@ void CCore::progress()
 
 	BitBlt(m_hDC, 0, 0, m_ptResolution.x, m_ptResolution.y,
 		m_memDC, 0, 0, SRCCOPY);
+
+	CTimeMgr::GetInst()->render();
 }
 
-//void CCore::update()
-//{
-//	// 물체들의 변경점 확인
-//	Vec2 vPos = g_obj.GetPos();
-//
-//	// 키의 상태 확인 (NONE TAP AWAY HOLD)
-//	KEY_STATE key_state = KEY_STATE::HOLD;
-//
-//	if (CKeyMgr::GetInst()->GetKeyState(KEY::LEFT) == key_state)
-//	{
-//		vPos.x -= 300.0f * fDT; // fDT = CTimeMgr::GetInst()->GetfDT()
-//	}
-//	if (CKeyMgr::GetInst()->GetKeyState(KEY::RIGHT) == key_state)
-//	{
-//		vPos.x += 300.0f * fDT;
-//	}
-//	if (CKeyMgr::GetInst()->GetKeyState(KEY::ESCAPE) == key_state)
-//	{
-//		DestroyWindow(m_hWnd);
-//	}
-//	g_obj.SetPos(vPos);
-//}
-//
-//void CCore::render()
-//{
-//	// 화면 Clear
-//	Rectangle(m_memDC, -1, -1, m_ptResolution.x + 1, m_ptResolution.y + 1);
-//	// 그리기
-//	Vec2 vPos = g_obj.GetPos();
-//	Vec2 vScale = g_obj.GetScale();
-//	Rectangle(m_memDC,
-//		int(vPos.x - vScale.x / 2.f),
-//		int(vPos.y - vScale.y / 2.f),
-//		int(vPos.x + vScale.x / 2.f),
-//		int(vPos.y + vScale.y / 2.f));
-//	
-//	BitBlt(m_hDC, 0, 0, m_ptResolution.x, m_ptResolution.y,
-//		 m_memDC, 0, 0, SRCCOPY);
-//}

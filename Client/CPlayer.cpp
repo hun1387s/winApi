@@ -1,11 +1,33 @@
 #include "pch.h"
 #include "CPlayer.h"
 
-#include "CSceneMgr.h"
-#include "CScene.h"
 #include "CKeyMgr.h"
 #include "CTimeMgr.h"
+#include "CSceneMgr.h"
+#include "CPathMgr.h"
+
+#include "CScene.h"
 #include "CMissile.h"
+#include "CTexture.h"
+
+
+CPlayer::CPlayer()
+	:m_pTex(nullptr)
+{
+	// Texture ·Îµù
+	m_pTex = new CTexture;
+	wstring strFilepath = CPathMgr::GetInst()->GetContentPath();
+	strFilepath += L"texture\\Player.bmp";
+	m_pTex->Load(strFilepath);
+
+
+}
+
+CPlayer::~CPlayer()
+{
+	if (nullptr != m_pTex)
+		delete m_pTex;
+}
 
 void CPlayer::update()
 {
@@ -31,6 +53,11 @@ void CPlayer::update()
 		CreateMissile();
 	}
 	SetPos(vPos);
+}
+
+void CPlayer::render(HDC _dc)
+{
+	m_pTex
 }
 
 void CPlayer::CreateMissile()
@@ -67,3 +94,4 @@ void CPlayer::CreateMissile()
 
 	repeatValue++;
 }
+

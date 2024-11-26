@@ -3,39 +3,6 @@
 // 싱글톤 패턴
 // 객체의 생서을 1개로 제한
 // 어디서든 쉽게 접근 가능
-//class CCore
-//{
-//private:
-//	static CCore* g_pInst;
-//
-//public:
-//	// 정적 멤버 함수
-//	static CCore* GetInstance()
-//	{
-//		// 최초 호출된 경우
-//		if (nullptr == g_pInst)
-//		{
-//			g_pInst = new CCore;
-//		}
-//
-//		return g_pInst;
-//	}
-//
-//	static void Release()
-//	{
-//		if (nullptr != g_pInst)
-//		{
-//			delete g_pInst;
-//			g_pInst = nullptr;
-//		}
-//	}
-//
-//private:
-//	CCore() {};
-//	~CCore() {};
-//};
-//
-
 
 // 데이터 영역에 넣는 방법
 // 해제를 신경 쓰지 않아도 된다.

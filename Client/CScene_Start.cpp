@@ -5,6 +5,9 @@
 #include "CObject.h"
 #include "CPlayer.h"
 #include "CMonster.h"
+#include "CTexture.h"
+
+#include "CPathMgr.h"
 
 CScene_Start::CScene_Start()
 {
@@ -37,7 +40,7 @@ void CScene_Start::Enter()
 	{
 		// Monster Object Ãß°¡
 		pMonsterObj = new CMonster;
-		pMonsterObj->SetPos(Vec2(blink + fTerm * i, 70.f + sin(i) * 30));
+		pMonsterObj->SetPos(Vec2(blink + fTerm * i, 70.f + sinf(i) * 30));
 		pMonsterObj->SetScale(Vec2(fObjScale, fObjScale));
 		pMonsterObj->SetCenterPos(pMonsterObj->GetPos());
 		pMonsterObj->SetMaxDistande(fMoveDist);
