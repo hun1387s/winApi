@@ -48,26 +48,10 @@ void CPlayer::CreateMissile()
 		CMissile* pMissile = new CMissile;
 		pMissile->SetPos(vMissilePos);
 		pMissile->SetScale(Vec2(40.f, 40.f));
-		pMissile->SetDir(true); // up 规氢
-		pMissile->SetSpeed(-100.f, 500.f);
+		pMissile->SetDir(Vec2(1.f,3.f));
+		pMissile->SetSpeed(600.f);
 
 		CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
-		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
-
-		pMissile = new CMissile;
-		pMissile->SetPos(vMissilePos);
-		pMissile->SetScale(Vec2(40.f, 40.f));
-		pMissile->SetDir(true); // up 规氢
-		pMissile->SetSpeed(100.f, 500.f);
-
-		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
-
-		pMissile = new CMissile;
-		pMissile->SetPos(vMissilePos);
-		pMissile->SetScale(Vec2(40.f, 40.f));
-		pMissile->SetDir(true); // up 规氢
-		pMissile->SetSpeed(0.f, 600.f);
-
 		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
 	}
 	else
@@ -75,7 +59,7 @@ void CPlayer::CreateMissile()
 		CMissile* pMissile = new CMissile;
 		pMissile->SetPos(vMissilePos);
 		pMissile->SetScale(Vec2(25.f, 25.f));
-		pMissile->SetDir(true); // up 规氢
+		pMissile->SetDir(0.f); // up 规氢
 
 		CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
 		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);

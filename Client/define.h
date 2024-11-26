@@ -21,6 +21,8 @@
 #define KEY_TAP(key)  KEY_CHECK(key, KEY_STATE::TAP)
 #define KEY_AWAY(key) KEY_CHECK(key, KEY_STATE::AWAY)
 
+#define PI 3.1415926535f
+
 // 오브젝트의 종류 나누는 그룹
 enum class GROUP_TYPE
 {
@@ -42,3 +44,4 @@ enum class SCENE_TYPE
 
 	END,
 };
+

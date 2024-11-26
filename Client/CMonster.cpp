@@ -50,7 +50,7 @@ void CMonster::CreateMissile()
 	CMissile* pMissile = new CMissile;
 	pMissile->SetPos(vMissilePos);
 	pMissile->SetScale(Vec2(10.f, 10.f));
-	pMissile->SetDir(false); // dn 방향
+	pMissile->SetDir(PI / 2); // dn 방향
 
 	CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
 	pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
