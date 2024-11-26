@@ -23,7 +23,7 @@ public:
 	virtual void Enter() = 0; // 해당 Scene에 진입시 호출
 	virtual void Exit() = 0;  // 해강 Scene에 탈출시 호출
 
-protected:
+public:
 	void AddObject(CObject* _pObj, GROUP_TYPE _eType)
 	{
 		m_arrObj[(UINT)_eType].push_back(_pObj);

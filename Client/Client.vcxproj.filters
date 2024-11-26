@@ -32,14 +32,23 @@
     <Filter Include="Engine\05. Scene">
       <UniqueIdentifier>{745fae8c-c957-47da-85ab-8da3fc4d2c33}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\03. Manager\SceneMgr">
-      <UniqueIdentifier>{68eb2649-a367-4953-9051-4232324191d2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Engine\05. Scene\Scene_Start">
       <UniqueIdentifier>{117ba77e-686b-4a0f-bfd2-7f4b2c5b107c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Engine\05. Scene\Scene_Tool">
       <UniqueIdentifier>{6edb2792-cc83-49b0-9a95-9fd2b94f8663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Manager\KeyMgr\SceneMgr">
+      <UniqueIdentifier>{68eb2649-a367-4953-9051-4232324191d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Object\Player">
+      <UniqueIdentifier>{e807b1d9-9389-4046-81c9-8fa9db0fbe2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Object\Monster">
+      <UniqueIdentifier>{84af35ad-7835-4605-84df-085d61152d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Object\Missile">
+      <UniqueIdentifier>{fbb1b775-267f-4e5f-af09-f0f0fff6fee8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -78,10 +87,19 @@
       <Filter>Engine\05. Scene</Filter>
     </ClInclude>
     <ClInclude Include="CSceneMgr.h">
-      <Filter>Engine\03. Manager\SceneMgr</Filter>
+      <Filter>Engine\03. Manager\KeyMgr\SceneMgr</Filter>
     </ClInclude>
     <ClInclude Include="CScene_Start.h">
       <Filter>Engine\05. Scene\Scene_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Engine\04. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Engine\04. Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>Engine\04. Object\Missile</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -104,10 +122,19 @@
       <Filter>Engine\05. Scene</Filter>
     </ClCompile>
     <ClCompile Include="CSceneMgr.cpp">
-      <Filter>Engine\03. Manager\SceneMgr</Filter>
+      <Filter>Engine\03. Manager\KeyMgr\SceneMgr</Filter>
     </ClCompile>
     <ClCompile Include="CScene_Start.cpp">
       <Filter>Engine\05. Scene\Scene_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Engine\04. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Engine\04. Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissile.cpp">
+      <Filter>Engine\04. Object\Missile</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

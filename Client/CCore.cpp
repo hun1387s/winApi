@@ -26,8 +26,6 @@ CCore::~CCore()
 	DeleteObject(m_hBit);
 };
 
-CObject g_obj;
-
 int CCore::init(HWND _hWnd, POINT _ptResolution)
 {
 	m_hWnd = _hWnd;
