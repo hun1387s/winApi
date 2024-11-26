@@ -35,17 +35,51 @@ void CPlayer::update()
 
 void CPlayer::CreateMissile()
 {
+	static int repeatValue = 0;
+
 	// 미사일 생성 위치
 	Vec2 vMissilePos = this->GetPos();
 	vMissilePos.y -= this->GetScale().y / 2;
 
-	// 미사일 obj
-	CMissile* pMissile = new CMissile;
-	pMissile->SetPos(vMissilePos);
-	pMissile->SetScale(Vec2(25.f, 25.f));
-	pMissile->SetDir(true); // up 방향
+	// 미사일 obj	
+	if (repeatValue % 5 == 0)
+	{
+		// 미사일 obj
+		CMissile* pMissile = new CMissile;
+		pMissile->SetPos(vMissilePos);
+		pMissile->SetScale(Vec2(40.f, 40.f));
+		pMissile->SetDir(true); // up 방향
+		pMissile->SetSpeed(-100.f, 500.f);
 
-	CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
-	pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
+		CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
+		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
 
+		pMissile = new CMissile;
+		pMissile->SetPos(vMissilePos);
+		pMissile->SetScale(Vec2(40.f, 40.f));
+		pMissile->SetDir(true); // up 방향
+		pMissile->SetSpeed(100.f, 500.f);
+
+		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
+
+		pMissile = new CMissile;
+		pMissile->SetPos(vMissilePos);
+		pMissile->SetScale(Vec2(40.f, 40.f));
+		pMissile->SetDir(true); // up 방향
+		pMissile->SetSpeed(0.f, 600.f);
+
+		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
+	}
+	else
+	{
+		CMissile* pMissile = new CMissile;
+		pMissile->SetPos(vMissilePos);
+		pMissile->SetScale(Vec2(25.f, 25.f));
+		pMissile->SetDir(true); // up 방향
+
+		CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
+		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
+	}
+
+	repeatValue++;
 }

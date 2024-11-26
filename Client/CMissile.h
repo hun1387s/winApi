@@ -5,8 +5,8 @@ class CMissile :
 {
 private:
     float     m_fDir; // 위 아래 방향
-    float     m_fSpeed;
-
+    float     m_fXSpeed;
+    float     m_fYSpeed;
 public:
     void SetDir(bool _bUp)
     {
@@ -14,6 +14,11 @@ public:
             m_fDir = -1.f;
         else
             m_fDir = 1.f;
+    }
+    void SetSpeed(float _x, float _y)
+    {
+        m_fXSpeed = _x;
+        m_fYSpeed = _y;
     }
 
 public:

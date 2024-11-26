@@ -5,7 +5,8 @@
 
 CMissile::CMissile()
 	: m_fDir(1.f)
-	, m_fSpeed(600.f)
+	, m_fXSpeed(0.f)
+	, m_fYSpeed(600.f)
 {
 }
 
@@ -17,7 +18,8 @@ void CMissile::update()
 {
 	Vec2 vPos = GetPos();
 
-	vPos.y += m_fSpeed * m_fDir * fDT;
+	vPos.y += m_fYSpeed * m_fDir * fDT;
+	vPos.x += m_fXSpeed * m_fDir * fDT;
 
 	SetPos(vPos);
 }

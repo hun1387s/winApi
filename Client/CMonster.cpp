@@ -2,6 +2,9 @@
 #include "CMonster.h"
 
 #include "CTimeMgr.h"
+#include "CMissile.h"
+#include "CScene.h"
+#include "CSceneMgr.h"
 
 CMonster::CMonster()
 	: m_vCenterPos{Vec2(0.f, 0.f)}
@@ -29,7 +32,27 @@ void CMonster::update()
 	{
 		m_iDir *= -1;
 		vCurPos.x += fDist * m_iDir;
+		CreateMissile();
 	}
 
 	SetPos(vCurPos);
+	
+	
+}
+
+void CMonster::CreateMissile()
+{
+	// 미사일 생성 위치
+	Vec2 vMissilePos = this->GetPos();
+	vMissilePos.y += this->GetScale().y / 2;
+
+	// 미사일 obj
+	CMissile* pMissile = new CMissile;
+	pMissile->SetPos(vMissilePos);
+	pMissile->SetScale(Vec2(10.f, 10.f));
+	pMissile->SetDir(false); // dn 방향
+
+	CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
+	pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
+
 }

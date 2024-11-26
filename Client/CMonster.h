@@ -21,6 +21,9 @@ public:
 public:
     virtual void update();
 
+private:
+    void CreateMissile();
+
 public:
     CMonster();
     ~CMonster();
