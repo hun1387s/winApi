@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "D:\\code\\cpp\\Assotrock\\winApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CScene_Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CScene_Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPathMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CPathMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPathMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CPathMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPathMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CPathMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CRes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CRes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CRes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CRes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CScene_Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CScene_Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -45,18 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CRes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CRes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CRes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CRes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CSound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -106,11 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CTimeMgr.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTimeMgr.cpp",
               "RelativeDocumentMoniker": "Client\\CTimeMgr.cpp",
@@ -118,12 +118,11 @@
               "RelativeToolTip": "Client\\CTimeMgr.cpp",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T08:36:42.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T08:36:42.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CTimeMgr.h",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTimeMgr.h",
               "RelativeDocumentMoniker": "Client\\CTimeMgr.h",
@@ -131,38 +130,37 @@
               "RelativeToolTip": "Client\\CTimeMgr.h",
               "ViewState": "AQIAAAgAAADA//////8TwBYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T08:36:28.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T08:36:28.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "CPathMgr.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPathMgr.cpp",
               "RelativeDocumentMoniker": "Client\\CPathMgr.cpp",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPathMgr.cpp",
               "RelativeToolTip": "Client\\CPathMgr.cpp",
-              "ViewState": "AQIAAAkAAADgzMzMzMwcwA4AAAANAAAA",
+              "ViewState": "AQIAABQAAADA//////8RwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-26T08:04:01.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "CPathMgr.h",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPathMgr.h",
               "RelativeDocumentMoniker": "Client\\CPathMgr.h",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPathMgr.h",
               "RelativeToolTip": "Client\\CPathMgr.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-26T08:04:00.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "CScene.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CScene.cpp",
               "RelativeDocumentMoniker": "Client\\CScene.cpp",
@@ -170,25 +168,24 @@
               "RelativeToolTip": "Client\\CScene.cpp",
               "ViewState": "AQIAAAYAAADg//////8jwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T07:56:01.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T07:56:01.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "CCore.h",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCore.h",
               "RelativeDocumentMoniker": "Client\\CCore.h",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCore.h",
               "RelativeToolTip": "Client\\CCore.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAABEAAABAzczMzMwhwBgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-26T07:04:37.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CCore.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCore.cpp",
               "RelativeDocumentMoniker": "Client\\CCore.cpp",
@@ -196,8 +193,7 @@
               "RelativeToolTip": "Client\\CCore.cpp",
               "ViewState": "AQIAADYAAAAAAAAAAAAgwEUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T07:04:07.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T07:04:07.239Z"
             },
             {
               "$type": "Document",
@@ -209,25 +205,24 @@
               "RelativeToolTip": "Client\\CSound.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T06:57:52.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T06:57:52.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CTexture.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTexture.cpp",
               "RelativeDocumentMoniker": "Client\\CTexture.cpp",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTexture.cpp",
               "RelativeToolTip": "Client\\CTexture.cpp",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwA8AAAAAAAAA",
+              "ViewState": "AQIAABAAAAAQAAAAAAAgwBkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-26T06:56:59.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "CRes.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CRes.cpp",
               "RelativeDocumentMoniker": "Client\\CRes.cpp",
@@ -240,26 +235,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CTexture.h",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTexture.h",
               "RelativeDocumentMoniker": "Client\\CTexture.h",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CTexture.h",
               "RelativeToolTip": "Client\\CTexture.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-26T06:56:31.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "CRes.h",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CRes.h",
               "RelativeDocumentMoniker": "Client\\CRes.h",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CRes.h",
               "RelativeToolTip": "Client\\CRes.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAQAAAADgvw4AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-26T06:50:32.085Z",
               "EditorCaption": ""
@@ -314,26 +309,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CPlayer.h",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPlayer.h",
               "RelativeDocumentMoniker": "Client\\CPlayer.h",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPlayer.h",
               "RelativeToolTip": "Client\\CPlayer.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "ViewState": "AQIAAAQAAACAm5mZmZnpvw0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-26T02:46:06.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CPlayer.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPlayer.cpp",
               "RelativeDocumentMoniker": "Client\\CPlayer.cpp",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CPlayer.cpp",
               "RelativeToolTip": "Client\\CPlayer.cpp",
-              "ViewState": "AQIAACsAAAAAAAAAAAAuwDsAAAAHAAAA",
+              "ViewState": "AQIAAAkAAAAAy8zMzMwlwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-26T02:46:04.665Z",
               "EditorCaption": ""
@@ -352,13 +347,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "CScene_Start.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CScene_Start.cpp",
               "RelativeDocumentMoniker": "Client\\CScene_Start.cpp",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CScene_Start.cpp",
               "RelativeToolTip": "Client\\CScene_Start.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBYAAAAAAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAADgvysAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-26T02:45:42.706Z",
               "EditorCaption": ""
@@ -373,8 +368,7 @@
               "RelativeToolTip": "Client\\CMissile.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T02:30:29.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T02:30:29.082Z"
             },
             {
               "$type": "Document",

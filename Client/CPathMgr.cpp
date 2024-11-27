@@ -29,7 +29,7 @@ void CPathMgr::init()
 	}
 
 	// 상위 경로에 + \bin\content\ 
-	wcscat_s(m_szContentPath, 255, L"\\bin\\content\\");
+	wcscat_s(m_szContentPath, 255, L"\\bin\\contents\\");
 
 	//SetWindowText(CCore::GetInst()->GetMainHwnd(), m_szContentPath);
 }

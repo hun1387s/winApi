@@ -57,7 +57,8 @@ void CPlayer::update()
 
 void CPlayer::render(HDC _dc)
 {
-	m_pTex
+	//m_pTex->
+	//BitBlt(_dc, 
 }
 
 void CPlayer::CreateMissile()
