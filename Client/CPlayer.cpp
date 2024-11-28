@@ -57,8 +57,28 @@ void CPlayer::update()
 
 void CPlayer::render(HDC _dc)
 {
-	//m_pTex->
+	int iWidth  = (int)m_pTex->Width();
+	int iHeight = (int)m_pTex->Height();
+	
+	Vec2 vPos = GetPos();
+
+	// 이미지를 그대로 복사하는 함수
 	//BitBlt(_dc, 
+	//	int(vPos.x - ((float)iWidth  / 2)),
+	//	int(vPos.y - ((float)iHeight / 2)),
+	//	iWidth, iHeight,
+	//	m_pTex->GetDC(),
+	//	0, 0, SRCCOPY);
+
+	// 특정 조건을 투명하게 복사하는 함수
+	TransparentBlt(_dc, 
+		int(vPos.x - ((float)iWidth  / 2)),
+		int(vPos.y - ((float)iHeight / 2)), 
+		iWidth, iHeight,
+		m_pTex->GetDC(),
+		0, 0, iWidth, iHeight,
+		RGB(255, 0, 255) );		// 이 색상 투명처리
+
 }
 
 void CPlayer::CreateMissile()
@@ -76,7 +96,7 @@ void CPlayer::CreateMissile()
 		CMissile* pMissile = new CMissile;
 		pMissile->SetPos(vMissilePos);
 		pMissile->SetScale(Vec2(40.f, 40.f));
-		pMissile->SetDir(Vec2(1.f,3.f));
+		pMissile->SetDir(Vec2(0.f,1.f));
 		pMissile->SetSpeed(600.f);
 
 		CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
@@ -87,7 +107,7 @@ void CPlayer::CreateMissile()
 		CMissile* pMissile = new CMissile;
 		pMissile->SetPos(vMissilePos);
 		pMissile->SetScale(Vec2(25.f, 25.f));
-		pMissile->SetDir(0.f); // up 방향
+		pMissile->SetDir(Vec2(0.f, 1.f));
 
 		CScene* pCurScene = CSceneMgr::GetInst()->GetCurScene();
 		pCurScene->AddObject(pMissile, GROUP_TYPE::DEFAULT);
