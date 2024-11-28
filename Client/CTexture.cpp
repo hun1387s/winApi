@@ -32,10 +32,4 @@ void CTexture::Load(const wstring& _strFilePath)
 
 	// 비트맵 정보 (가로 세로 길이)
 	GetObject(m_hBit, sizeof(BITMAP), &m_bitInfo);
-
-
-
-
-
-
 }

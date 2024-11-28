@@ -5,6 +5,7 @@
 #include "CTimeMgr.h"
 #include "CSceneMgr.h"
 #include "CPathMgr.h"
+#include "CResMgr.h"
 
 #include "CScene.h"
 #include "CMissile.h"
@@ -14,19 +15,13 @@
 CPlayer::CPlayer()
 	:m_pTex(nullptr)
 {
-	// Texture 로딩
-	m_pTex = new CTexture;
-	wstring strFilepath = CPathMgr::GetInst()->GetContentPath();
-	strFilepath += L"texture\\Player.bmp";
-	m_pTex->Load(strFilepath);
-
+	// Texture 로딩 (CResMgr로 변경)
+	m_pTex = CResMgr::GetInst()->LoadTexture(L"PlayerTex", L"texture\\Player.bmp");
 
 }
 
 CPlayer::~CPlayer()
 {
-	if (nullptr != m_pTex)
-		delete m_pTex;
 }
 
 void CPlayer::update()
@@ -61,14 +56,6 @@ void CPlayer::render(HDC _dc)
 	int iHeight = (int)m_pTex->Height();
 	
 	Vec2 vPos = GetPos();
-
-	// 이미지를 그대로 복사하는 함수
-	//BitBlt(_dc, 
-	//	int(vPos.x - ((float)iWidth  / 2)),
-	//	int(vPos.y - ((float)iHeight / 2)),
-	//	iWidth, iHeight,
-	//	m_pTex->GetDC(),
-	//	0, 0, SRCCOPY);
 
 	// 특정 조건을 투명하게 복사하는 함수
 	TransparentBlt(_dc, 
