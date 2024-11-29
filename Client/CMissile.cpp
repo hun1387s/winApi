@@ -9,6 +9,7 @@ CMissile::CMissile()
 	, m_Speed(600.f)
 {
 	m_vDir.Normalize();
+	CreateCollider();
 }
 
 CMissile::~CMissile()

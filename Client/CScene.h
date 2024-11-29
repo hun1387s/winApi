@@ -17,6 +17,7 @@ public:
 	const wstring& GetName() { return m_strName; };
 
 	void update();
+	void finalupdate();		// 마무리 작업해주는 update
 	void render(HDC _dc);
 	
 	// 순수 가상 함수
@@ -28,7 +29,7 @@ public:
 	{
 		m_arrObj[(UINT)_eType].push_back(_pObj);
 	}
-
+	
 public:
 	CScene();
 	virtual ~CScene();

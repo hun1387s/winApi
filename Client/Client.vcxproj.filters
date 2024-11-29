@@ -38,9 +38,6 @@
     <Filter Include="Engine\05. Scene\Scene_Tool">
       <UniqueIdentifier>{6edb2792-cc83-49b0-9a95-9fd2b94f8663}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\03. Manager\KeyMgr\SceneMgr">
-      <UniqueIdentifier>{68eb2649-a367-4953-9051-4232324191d2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Engine\04. Object\Player">
       <UniqueIdentifier>{e807b1d9-9389-4046-81c9-8fa9db0fbe2e}</UniqueIdentifier>
     </Filter>
@@ -64,6 +61,15 @@
     </Filter>
     <Filter Include="Engine\03. Manager\ResMgr">
       <UniqueIdentifier>{a18c565d-67de-4f37-825a-c21caa46024c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Component">
+      <UniqueIdentifier>{0c8a3e5a-7c37-4400-8324-325f00808322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Manager\SceneMgr">
+      <UniqueIdentifier>{68eb2649-a367-4953-9051-4232324191d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08. Module">
+      <UniqueIdentifier>{c112ac08-287c-4983-9d65-2fe52a74f1b3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -102,7 +108,7 @@
       <Filter>Engine\05. Scene</Filter>
     </ClInclude>
     <ClInclude Include="CSceneMgr.h">
-      <Filter>Engine\03. Manager\KeyMgr\SceneMgr</Filter>
+      <Filter>Engine\03. Manager\SceneMgr</Filter>
     </ClInclude>
     <ClInclude Include="CScene_Start.h">
       <Filter>Engine\05. Scene\Scene_Start</Filter>
@@ -131,6 +137,10 @@
     <ClInclude Include="CResMgr.h">
       <Filter>Engine\03. Manager\ResMgr</Filter>
     </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Engine\07. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectGDI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -152,7 +162,7 @@
       <Filter>Engine\05. Scene</Filter>
     </ClCompile>
     <ClCompile Include="CSceneMgr.cpp">
-      <Filter>Engine\03. Manager\KeyMgr\SceneMgr</Filter>
+      <Filter>Engine\03. Manager\SceneMgr</Filter>
     </ClCompile>
     <ClCompile Include="CScene_Start.cpp">
       <Filter>Engine\05. Scene\Scene_Start</Filter>
@@ -181,6 +191,10 @@
     <ClCompile Include="CResMgr.cpp">
       <Filter>Engine\03. Manager\ResMgr</Filter>
     </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Engine\07. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectGDI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Client.rc">

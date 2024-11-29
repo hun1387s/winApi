@@ -10,7 +10,7 @@
 #include "CScene.h"
 #include "CMissile.h"
 #include "CTexture.h"
-
+#include "CCollider.h"
 
 CPlayer::CPlayer()
 	:m_pTex(nullptr)
@@ -18,6 +18,8 @@ CPlayer::CPlayer()
 	// Texture 로딩 (CResMgr로 변경)
 	m_pTex = CResMgr::GetInst()->LoadTexture(L"PlayerTex", L"texture\\Player.bmp");
 
+	CreateCollider();
+	GetCollider()->SetScale(Vec2(100.f, 100.f));
 }
 
 CPlayer::~CPlayer()
@@ -66,6 +68,8 @@ void CPlayer::render(HDC _dc)
 		0, 0, iWidth, iHeight,
 		RGB(255, 0, 255) );		// 이 색상 투명처리
 
+	// 컴포넌트(충돌체, etc) 가 있는 경우 렌더 (debug mode)
+	component_render(_dc);
 }
 
 void CPlayer::CreateMissile()
