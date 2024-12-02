@@ -24,7 +24,7 @@ void CScene_Start::Enter()
 	CObject* pObj = new CPlayer;
 	pObj->SetPos(Vec2(640.f, 384.f));
 	pObj->SetScale(Vec2(100.f,100.f));
-	AddObject(pObj, GROUP_TYPE::DEFAULT);
+	AddObject(pObj, GROUP_TYPE::PLAYER);
 
 	// Monster 배치
 	int iMonsterCount = 16;
@@ -44,8 +44,12 @@ void CScene_Start::Enter()
 		pMonsterObj->SetScale(Vec2(fObjScale, fObjScale));
 		pMonsterObj->SetCenterPos(pMonsterObj->GetPos());
 		pMonsterObj->SetMaxDistande(fMoveDist);
-		AddObject(pMonsterObj, GROUP_TYPE::DEFAULT);
+		AddObject(pMonsterObj, GROUP_TYPE::MONSTER);
 	}
+
+	// 충돌 지정
+	// Player 그룹과 Monster 그룹 간의 충돌 체크
+
 }
 
 void CScene_Start::Exit()
