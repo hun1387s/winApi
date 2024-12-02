@@ -6,7 +6,7 @@
 #include "CKeyMgr.h"
 #include "CSceneMgr.h"
 #include "CPathMgr.h"
-
+#include "CCollisionMgr.h"
 
 CCore::CCore()
 	: m_hWnd(0)
@@ -60,6 +60,7 @@ int CCore::init(HWND _hWnd, POINT _ptResolution)
 	CTimeMgr::GetInst()->init();
 	CKeyMgr::GetInst()->init();
 	CSceneMgr::GetInst()->init();
+	// CCollisionMgr::GetInst()->init();
 
 	return S_OK;
 }
@@ -71,6 +72,7 @@ void CCore::progress()
 	CTimeMgr::GetInst()->update();
 	CKeyMgr::GetInst()->update();
 	CSceneMgr::GetInst()->update();
+	CCollisionMgr::GetInst()->update();
 	
 	// =========
 	// Rendering
