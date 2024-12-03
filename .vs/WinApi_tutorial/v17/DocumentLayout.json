@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\code\\cpp\\Assotrock\\winApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollisionMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CCollisionMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollisionMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|solutionrelative:Client\\CCollisionMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8584955-F633-40AE-A6E5-B72C54DC820D}|Client\\Client.vcxproj|D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollisionMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -162,17 +162,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CCollisionMgr.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollisionMgr.cpp",
               "RelativeDocumentMoniker": "Client\\CCollisionMgr.cpp",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollisionMgr.cpp",
               "RelativeToolTip": "Client\\CCollisionMgr.cpp",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAkwG8AAAABAAAA",
+              "ViewState": "AQIAAF0AAACAMzMzMzPzv2QAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-02T05:13:48.975Z",
               "EditorCaption": ""
@@ -199,8 +199,7 @@
               "RelativeToolTip": "Client\\CCollisionMgr.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-29T07:56:50.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T07:56:50.248Z"
             },
             {
               "$type": "Document",
@@ -236,8 +235,7 @@
               "RelativeToolTip": "Client\\CScene.h",
               "ViewState": "AQIAABIAAADoZGZmZmYqwCAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-28T09:57:21.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T09:57:21.067Z"
             },
             {
               "$type": "Document",
@@ -265,26 +263,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CCollider.cpp",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollider.cpp",
               "RelativeDocumentMoniker": "Client\\CCollider.cpp",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollider.cpp",
               "RelativeToolTip": "Client\\CCollider.cpp",
-              "ViewState": "AQIAADIAAAAAAAAAAAAUwDwAAAAfAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAACkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-28T09:35:02.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CCollider.h",
               "DocumentMoniker": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollider.h",
               "RelativeDocumentMoniker": "Client\\CCollider.h",
               "ToolTip": "D:\\code\\cpp\\Assotrock\\winApi\\Client\\CCollider.h",
               "RelativeToolTip": "Client\\CCollider.h",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB8AAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-28T09:34:53.729Z",
               "EditorCaption": ""
@@ -311,8 +309,7 @@
               "RelativeToolTip": "Client\\CObject.h",
               "ViewState": "AQIAAAQAAAAgmZmZmZkjwBQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-28T09:27:02.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T09:27:02.468Z"
             },
             {
               "$type": "Document",
@@ -396,8 +393,7 @@
               "RelativeToolTip": "Client\\CScene.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T07:56:01.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T07:56:01.416Z"
             },
             {
               "$type": "Document",
@@ -421,8 +417,7 @@
               "RelativeToolTip": "Client\\CCore.cpp",
               "ViewState": "AQIAADwAAAAAAAAAAAAAAD4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T07:04:07.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T07:04:07.239Z"
             },
             {
               "$type": "Document",
@@ -578,8 +573,7 @@
               "RelativeToolTip": "Client\\CScene_Start.cpp",
               "ViewState": "AQIAACgAAAAAAAAAAAAAADkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T02:45:42.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T02:45:42.706Z"
             },
             {
               "$type": "Document",
