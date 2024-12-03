@@ -26,9 +26,6 @@
     <Filter Include="Engine\04. Object">
       <UniqueIdentifier>{a31f105f-b07e-41d7-89e9-f256a4894ac4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\03. Manager\CTimeMgr">
-      <UniqueIdentifier>{e9143266-04f5-47ea-a281-ab01e890fa19}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Engine\05. Scene">
       <UniqueIdentifier>{745fae8c-c957-47da-85ab-8da3fc4d2c33}</UniqueIdentifier>
     </Filter>
@@ -74,6 +71,12 @@
     <Filter Include="Engine\03. Manager\CollisionMgr">
       <UniqueIdentifier>{3052d2db-ec37-4505-8420-ff4dfb7b919b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\03. Manager\EventMgr">
+      <UniqueIdentifier>{9123d481-4aa8-494b-8540-f392506bced9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Manager\TimeMgr">
+      <UniqueIdentifier>{e9143266-04f5-47ea-a281-ab01e890fa19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CCore.h">
@@ -105,7 +108,7 @@
       <Filter>Engine\01 Header</Filter>
     </ClInclude>
     <ClInclude Include="CTimeMgr.h">
-      <Filter>Engine\03. Manager\CTimeMgr</Filter>
+      <Filter>Engine\03. Manager\TimeMgr</Filter>
     </ClInclude>
     <ClInclude Include="CScene.h">
       <Filter>Engine\05. Scene</Filter>
@@ -149,6 +152,12 @@
     <ClInclude Include="SelectGDI.h">
       <Filter>Engine\08. Module</Filter>
     </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Engine\03. Manager\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Engine\01 Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -164,7 +173,7 @@
       <Filter>Engine\04. Object</Filter>
     </ClCompile>
     <ClCompile Include="CTimeMgr.cpp">
-      <Filter>Engine\03. Manager\CTimeMgr</Filter>
+      <Filter>Engine\03. Manager\TimeMgr</Filter>
     </ClCompile>
     <ClCompile Include="CScene.cpp">
       <Filter>Engine\05. Scene</Filter>
@@ -207,6 +216,12 @@
     </ClCompile>
     <ClCompile Include="SelectGDI.cpp">
       <Filter>Engine\08. Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Engine\03. Manager\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Engine\01 Header</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

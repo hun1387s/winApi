@@ -109,6 +109,10 @@ void CCollisionMgr::CollisionGroupUpdate(GROUP_TYPE _eLeft, GROUP_TYPE _eRight)
 
 bool CCollisionMgr::IsCollision(CCollider* _pLeftCol, CCollider* _pRightCol)
 {
+	// 충돌체가 죽는 경우 다시 충돌에서 벗어나도록 세팅
+	if (_pLeftCol->GetObj()->IsDead() || _pRightCol->GetObj()->IsDead())
+		return false;
+
 	Vec2 vLeftPos = _pLeftCol->GetFinalPos();
 	Vec2 vLeftScale = _pLeftCol->GetScale();
 

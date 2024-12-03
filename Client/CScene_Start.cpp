@@ -28,7 +28,7 @@ void CScene_Start::Enter()
 	AddObject(pObj, GROUP_TYPE::PLAYER);
 
 	// Monster 배치
-	int iMonsterCount = 16;
+	int iMonsterCount = 5;
 	float fMoveDist = 50.f;
 	float fObjScale = 50.f;
 	float blink = fMoveDist + fObjScale / 2.f;
@@ -41,7 +41,8 @@ void CScene_Start::Enter()
 	{
 		// Monster Object 추가
 		pMonsterObj = new CMonster;
-		pMonsterObj->SetPos(Vec2(blink + fTerm * i, 70.f + sin(i) * 30));
+		pMonsterObj->SetName(L"Monster");
+		pMonsterObj->SetPos(Vec2(blink + fTerm * i, 70.f + sinf((float)i) * 30));
 		pMonsterObj->SetScale(Vec2(fObjScale, fObjScale));
 		pMonsterObj->SetCenterPos(pMonsterObj->GetPos());
 		pMonsterObj->SetMaxDistande(fMoveDist);
@@ -51,6 +52,7 @@ void CScene_Start::Enter()
 	// 충돌 지정
 	// Player 그룹과 Monster 그룹 간의 충돌 체크
 	CCollisionMgr::GetInst()->CheckGroup(GROUP_TYPE::PLAYER, GROUP_TYPE::MONSTER);
+	CCollisionMgr::GetInst()->CheckGroup(GROUP_TYPE::MONSTER, GROUP_TYPE::PROJ_PLAYER);
 }
 
 void CScene_Start::Exit()

@@ -12,6 +12,7 @@ CMonster::CMonster()
 	, m_fSpeed(100.f)
 	, m_fMaxDistance(100.f)
 	, m_iDir(1)
+	, m_iHP(5)
 {
 	CreateCollider();
 	GetCollider()->SetScale(Vec2(40.f, 40.f));
@@ -22,8 +23,26 @@ CMonster::~CMonster()
 {
 }
 
+void CMonster::OnCollisionEnter(CCollider* _pOther)
+{
+	CObject* pOtherObj = _pOther->GetObj();
+
+	if (pOtherObj->GetName() == L"Missile_Player")
+	{
+		m_iHP -= 1;
+
+		if (m_iHP <= 0)
+		{
+			DeleteObject(this);
+		}
+	}
+	
+}
+
+
 void CMonster::update()
 {
+	return;
 	Vec2 vCurPos = GetPos();
 
 	// 진행 방향으로 시간당 m_fSpeed 만큼 이동

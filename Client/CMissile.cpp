@@ -2,6 +2,7 @@
 #include "CMissile.h"
 
 #include "CTimeMgr.h"
+#include "CCollider.h"
 
 CMissile::CMissile()
 	: m_vDir(Vec2(1.f, 1.f))
@@ -10,10 +11,23 @@ CMissile::CMissile()
 {
 	m_vDir.Normalize();
 	CreateCollider();
+	GetCollider()->SetScale(Vec2(15.f, 15.f));
 }
 
 CMissile::~CMissile()
 {
+}
+
+
+void CMissile::OnCollisionEnter(CCollider* _pOther)
+{
+	CObject* pOtherObj = _pOther->GetObj();
+
+	if (pOtherObj->GetName() == L"Monster")
+	{
+		DeleteObject(this);
+	}
+
 }
 
 void CMissile::update()
@@ -35,4 +49,6 @@ void CMissile::render(HDC _dc)
 		int(vPos.y - vScale.y / 2.f),
 		int(vPos.x + vScale.x / 2.f),
 		int(vPos.y + vScale.y / 2.f));
+
+	component_render(_dc);
 }  
